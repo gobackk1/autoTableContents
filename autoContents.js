@@ -36,8 +36,6 @@
           for (var j = 0; j < h3.length; j++) {
             var subListItem = $('<li></li>');
             var subText = h3.get(j).textContent;
-            console.log(h3.get(j).textContent);
-
             var subAnchor = $('<a></a>', {
               href: '#a_' + subHeadCount,
               text: subText
